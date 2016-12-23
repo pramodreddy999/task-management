@@ -1,0 +1,24 @@
+{
+	"preset": "airbnb",
+	"requireSpaceBeforeBinaryOperators": [
+		"=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
+		"&=", "|=", "^=", "+=", "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&",
+		"|", "^", "&&", "||", "===", "==", ">=",
+		"<=", "<", ">", "!=", "!=="
+	],
+	"disallowSpaceBeforeBinaryOperators": [ ",", ":" ],
+	"maximumLineLength": {
+        "value": 1500,
+        "tabSize": 4,
+        "allExcept": ["urlComments", "regex", "comments"]
+    },
+    "validateIndentation": 4,
+    "disallowDanglingUnderscores": null,
+    "safeContextKeyword": "root",
+	"requireVarDeclFirst": false,
+	"requireDotNotation": false,
+	"requirePaddingNewLinesAfterBlocks": false,
+	"validateQuoteMarks": false,
+	"disallowQuotedKeysInObjects": false,
+	"requireTrailingComma": false
+}

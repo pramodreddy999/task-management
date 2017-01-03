@@ -16,8 +16,17 @@
     "glob": "^7.1.1",
     "jade": "~1.11.0",
     "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
     "mongoose": "^4.7.6",
+    "mongoose-bcrypt": "^1.4.2",
+    "mongoose-deep-populate": "^3.0.0",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
+    "request": "^2.79.0",
+    "serve-favicon": "~2.3.0",
+    "swag": "^0.7.0"
+  },
+  "devDependencies": {
+    "longjohn": "^0.2.11"
   }
 }
